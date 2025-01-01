@@ -1,0 +1,364 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url(./items.css);
+
+/* General container styles */
+.container {
+  width: 100%;
+  margin: 10px auto;
+  background-color: white;
+}
+
+/* Header styles */
+.header-top {
+  width: 100%;
+  border-bottom: 1px solid #cdcdcd;
+  text-align: center;
+  padding: 12px 0px;
+}
+
+.middle h1 {
+  font-size: 36px;
+}
+
+.header-top a {
+  color: #c5949e;
+}
+
+.header .header-bottom {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0px;
+}
+
+.header .header-bottom .top ul,
+.header .header-bottom .bottom ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.header .header-bottom .top {
+  margin-left: 40px;
+}
+
+.header .header-bottom .bottom {
+  margin-right: 40px;
+}
+
+.header .header-bottom .top ul li {
+  margin-right: 10px;
+}
+
+.header .header-bottom .bottom ul li {
+  margin-left: 10px;
+}
+
+.li-middle {
+  padding-left: 20px;
+  padding-right: 28px;
+  border-left: 1px solid #cdcdcd;
+  border-right: 1px solid #cdcdcd;
+}
+
+.header .header-bottom .bottom select,
+.header .header-bottom .top select {
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header .header-bottom .top select {
+  width: 78%;
+}
+
+/* Favorite cart and counters */
+.favorite-cart {
+  position: relative;
+}
+
+.bottom .favorite-cart {
+  padding-right: 10px;
+}
+
+.top .counter,
+.bottom .counter {
+  position: absolute;
+  top: -5px;
+  font-size: 18px;
+  color: #b84750;
+}
+
+/* Menu bar styles */
+.menu-bar {
+  padding: 14px 0px;
+  background-color: #e2e3e3;
+}
+
+.menu-bar ul {
+  width: 38%;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.menu-bar ul li {
+  cursor: pointer;
+}
+
+.menu-bar ul li:hover {
+  color: brown;
+  text-decoration: underline;
+}
+
+/* Content styles */
+.content {
+  background-image: url("./image/happy-holidays-2567915_1280.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content h1 {
+  padding-top: 100px;
+  font-size: 68px;
+}
+
+.content .about {
+  margin: auto;
+  text-align: center;
+}
+
+.content .about .line {
+  margin: 10px auto;
+  width: 3.5%;
+  padding: 2px 0px;
+  background-color: #b84750;
+  border-radius: 8px;
+}
+
+.content .about .line:hover {
+  width: 10%;
+  background-color: #ffffff;
+}
+
+/* Color classes */
+.color-1 {
+  color: white;
+}
+
+.color-2 {
+  color: rgba(178, 178, 178, 255);
+}
+.color-4 {
+  color: black;
+}
+
+
+
+/* Navigation styles */
+.navigation {
+  margin: 30px auto;
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  font-weight: 600;
+}
+
+.navigation li {
+  display: flex;
+  align-items: center;
+}
+
+.navigation span {
+  font-size: 12px;
+}
+
+.content .menu-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #e2e3e3;
+  cursor: pointer;
+}
+
+.content .menu-section .box {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #e2e3e3;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.box-size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content .menu-section .box .next {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.content .menu-section .box .next span {
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.content .menu-section .box .next .back-vector {
+  position: absolute;
+  left: 45px;
+}
+
+.content .menu-section .box .next .next-vector {
+  position: absolute;
+  right: 45px;
+}
+
+.menu-section .box-context {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-section .box-context .material-symbols-outlined {
+  color: black;
+}
+
+.menu-container {
+  position: relative;
+  bottom: -80px;
+}
+
+.menu-section .box p {
+  margin-top: 5px;
+}
+
+.menu-section .box ul {
+  width: 100%;
+  display: flex;
+  list-style: none;
+}
+
+.menu-section .box ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  color: gray;
+  margin-right: 8px;
+}
+
+.box ul li:hover {
+  border: 1px solid black;
+  color: black;
+}
+
+/* Box layout */
+.box-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+
+
+.box-pages {
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+}
+
+/* Card container styles */
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 60px;
+  padding: 30px 45px;
+}
+
+.card-container .card {
+  width: 18%;
+  margin: 20px 0px;
+  cursor: pointer;
+  position: relative;
+}
+
+.card-container .card .label-container {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  width: 30%;
+
+}
+.card-container .card .label-container .label {
+  position: relative;
+  width: 100%;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 10px;
+}
+
+.card-container .card .label-container .sale {
+  background-color: #b84750;
+}
+
+.card-container .card .label-container .new {
+  background-color: #60d3da;
+}
+
+
+
+.card-container .card .label-container .label .cicle {
+  position: absolute;
+  right: 5px;
+  width: 8px;
+  height: 8px;
+  background-color: white;
+  border-radius: 50%;
+
+}
+
+
+.card-container .card .item {
+  padding: 140px 120px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-container .card .card-bottom img {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+
+.card-container .card .card-bottom h3,
+.card-container .card .card-bottom p {
+  margin: 10px 0px;
+}

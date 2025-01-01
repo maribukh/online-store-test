@@ -1,0 +1,32 @@
+@import url(./style.css);
+
+
+.img-1 {
+    background-image: url("./image/items/t-shirt-1.png");
+  }
+
+  .img-2 {
+    background-image: url("./image/items/t-shirt-2.png");
+  }
+  .img-3 {
+    background-image: url("./image/items/t-shirt-3.png");
+  }
+  .img-4 {
+    background-image: url("./image/items/boots-1.png");
+  }
+  .img-5 {
+    background-image: url("./image/items/boots-2.png");
+  }
+  .img-6 {
+    background-image: url("./image/items/cap-2.png");
+  }
+  .img-7 {
+    background-image: url("./image/items//coat-1.png");
+  }
+
+  .img-8 {
+    background-image: url("./image/items//bag-1.png");
+  }
+
+
+
