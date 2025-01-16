@@ -1,0 +1,339 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  width: 100%;
+}
+
+.topHeader {
+  background-color: #313131;
+}
+
+.header {
+  width: 82%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.header ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 4px 0px;
+}
+
+.header ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
+.header .logo h1 {
+  font-size: 20px;
+}
+
+.header .logo img {
+  width: 70px;
+  height: 50px;
+}
+
+.header .menu {
+  display: flex;
+  align-items: center;
+}
+
+
+button {
+  width: 100%;
+  border: none;
+  outline: none;
+  background-color: #ea724f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.topHeader .header .nav .circle {
+  width: 8px;
+  height: 8px;
+  background-color: #ea724f;
+  border-radius: 50%;
+  position: absolute;
+  right: -3px;
+  top: -3px;
+}
+.header .profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.header .profile .profilePhoto {
+  background-image: url("./images/profile/photo.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.background {
+  background-image: url("./images/backgorund.png");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  padding: 200px 0px;
+}
+
+.middle-container {
+  width: 100%;
+  background-color: #f1f1f1;
+}
+
+.middle-container .profile-container {
+  width: 82%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 10px 0px;
+}
+
+.middle-container .profile-container .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.middle-container .profile-container .right-side .box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.middle-container .profile-container .right-side .box {
+  font-size: 14px;
+}
+
+.middle-container .profile-container .profilePhoto {
+  background-image: url("./images/profile/photo.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid white;
+  position: absolute;
+  top: -40px;
+}
+.middle-container .profile-container .profile-info {
+  margin-left: 120px;
+}
+
+.middle-container .profile-container .profile-info p {
+  margin: 5px 0px;
+}
+
+.middle-container .profile-container .profile-info h1 {
+  font-size: 24px;
+}
+
+.middle-container .about-container {
+  padding: 50px 0px;
+  margin: auto;
+  width: 82%;
+}
+
+.middle-container .about-container ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.middle-container .about-container ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+}
+
+.about-container ul li:hover {
+  color: #424242;
+  border-bottom: 1px solid black;
+}
+
+.middle-container .about-container ul li .counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  width: 16px;
+  height: 16px;
+  border-radius: 2px;
+  margin-left: 2px;
+}
+
+.middle-container .about-container ul li .counter p {
+  font-size: 10px;
+}
+
+/* main */
+.main {
+  display: flex;
+  width: 82%;
+  margin: auto;
+}
+
+
+.left {
+  width: 25%;
+}
+/* left continaer */
+.middle-container .main .left .left-container {
+  /* width: 25%; */
+  padding: 20px 0px;
+  background-color: white;
+  margin-bottom: 30px;
+}
+
+.middle-container .main .left .left-container ul {
+  list-style: none;
+}
+
+.middle-container .main .left .left-container li {
+  padding: 20px 20px;
+  border-top: 1px solid #cccccc;
+  display: flex;
+  align-items: center;
+  
+}
+
+.middle-container .main .left .left-container h2 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  padding: 0px 20px;
+}
+
+.middle-container .main .left .left-container li a {
+  font-size: 14px;
+}
+
+.middle-container .main .left .left-container li img {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+/* second left conintaer */
+
+.middle-container .main .left .left-container-2 li {
+  justify-content: space-between;
+}
+
+.middle-container .main .left .left-container-2 li .box {
+  display: flex;
+  align-items: center;
+}
+
+.middle-container .main .left .left-container-2 li .icon {
+  width: 40px;
+  height: 40px;
+  color: #424242;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.middle-container .main .left .left-container-2 li .icon:hover {
+    color: white;
+    background-color: #ea724f;
+    border: 1px solid white;
+}
+
+.middle-container .main .left .left-container-2 li .box img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+/* middle content */
+
+
+.middle-container .main .middle {
+  width: 60%;
+  padding: 0px 30px;
+  border: 1px solid black;
+}
+
+.middle-container .main .middle .middle-content {
+  padding: 20px 20px 120px 20px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.middle-container .main .middle .middle-content .top {
+  display: flex;
+  align-items: center;
+}
+
+
+.middle-container .main .middle .middle-content .top img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+
+.middle-container .main .middle .middle-content .button-container {
+  display: flex;
+  width: 30%;
+  justify-content: flex-end;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+
+
+.middle-container .main .middle .middle-content .middle-context {
+  margin: 20px 0px;
+}
+
+
+.middle-container .main .middle .middle-content .top .profile-info {
+  display: flex;
+}
+.middle-container .main .middle .middle-content .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+ 
