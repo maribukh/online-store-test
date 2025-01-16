@@ -210,7 +210,6 @@ button {
 }
 /* left continaer */
 .middle-container .main .left .left-container {
-  /* width: 25%; */
   padding: 20px 0px;
   background-color: white;
   margin-bottom: 30px;
@@ -225,7 +224,11 @@ button {
   border-top: 1px solid #cccccc;
   display: flex;
   align-items: center;
-  
+}
+
+.middle-container .main .left .left-container-2 li {
+    justify-content: space-between;
+
 }
 
 .middle-container .main .left .left-container h2 {
@@ -246,7 +249,8 @@ button {
 
 /* second left conintaer */
 
-.middle-container .main .left .left-container-2 li {
+
+ .middle-container .main .middle .middle-content .top-2 {
   justify-content: space-between;
 }
 
@@ -289,15 +293,25 @@ button {
 }
 
 .middle-container .main .middle .middle-content {
-  padding: 20px 20px 120px 20px;
+  padding: 20px 20px 20px 20px;
   background-color: white;
   position: relative;
   margin-bottom: 40px;
 }
 
+.middle-container .main .middle .middle-content .padding {
+  padding: 20px 20px 140px 20px;
+
+}
+
 .middle-container .main .middle .middle-content .top {
   display: flex;
   align-items: center;
+}
+
+.margin {
+  margin-bottom: 150px;
+
 }
 
 
@@ -319,9 +333,12 @@ button {
 }
 
 
+/* second card */
+
 
 .middle-container .main .middle .middle-content .middle-context {
-  margin: 20px 0px;
+  margin-top: 20px;
+  margin-bottom: 60px;
 }
 
 
@@ -330,10 +347,45 @@ button {
 }
 .middle-container .main .middle .middle-content .top {
   display: flex;
-  justify-content: space-between;
   align-items: center;
 
 }
 
+.middle-container .main .middle .middle-content .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid #f1f1f1;
+  padding-top: 20px;
+}
+
+.middle-container .main .middle .middle-content .bottom .right-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.middle-container .main .middle .middle-content .bottom .left-side {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+
+.middle-container .main .middle .middle-content .bottom .left-side span {
+  margin-right: 5px;
+}
+
+.middle-container .main .middle .middle-content .bottom .right-side span {
+  margin-right: 5px;
+}
+
+
+.middle-container .main .middle .middle-content .bottom .box {
+  display: flex;
+  align-items: center;
+
+}
 
  
