@@ -9,6 +9,17 @@
   width: 100%;
 }
 
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+} 
+
+ul {
+  list-style: none;
+}
+ 
+
 .topHeader {
   background-color: #313131;
 }
@@ -66,6 +77,12 @@ button {
   padding: 10px 20px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+button:hover {
+  color: #424242;
+  background-color: white;
+  border: 1px solid #ea724f;
 }
 
 .topHeader .header .nav .circle {
@@ -277,7 +294,7 @@ button {
     border: 1px solid white;
 }
 
-.middle-container .main .left .left-container-2 li .box img {
+ .middle-container .main .left .left-container-2 li img {
   width: 50px;
   height: 50px;
   border-radius: 50%;
@@ -289,11 +306,10 @@ button {
 .middle-container .main .middle {
   width: 60%;
   padding: 0px 30px;
-  border: 1px solid black;
 }
 
 .middle-container .main .middle .middle-content {
-  padding: 20px 20px 20px 20px;
+  padding: 20px 0px 20px 0px;
   background-color: white;
   position: relative;
   margin-bottom: 40px;
@@ -305,6 +321,7 @@ button {
 }
 
 .middle-container .main .middle .middle-content .top {
+  padding: 0px 20px 0px 20px;
   display: flex;
   align-items: center;
 }
@@ -320,6 +337,11 @@ button {
   height: 50px;
   border-radius: 50%;
   margin-right: 16px;
+}
+
+.middle-container .main .middle .middle-content .top .bullets img {
+    width: 16px;
+    height: 16px;
 }
 
 
@@ -341,6 +363,10 @@ button {
   margin-bottom: 60px;
 }
 
+.middle-container .main .middle .middle-context {
+    padding: 0px 20px 0px 20px;
+
+} 
 
 .middle-container .main .middle .middle-content .top .profile-info {
   display: flex;
@@ -357,9 +383,16 @@ button {
   justify-content: space-between;
   border-top: 1px solid #f1f1f1;
   padding-top: 20px;
+
+
+}
+
+.bottom-padding {
+  padding-bottom: 20px;
 }
 
 .middle-container .main .middle .middle-content .bottom .right-side {
+  padding-right: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -367,10 +400,11 @@ button {
 }
 
 .middle-container .main .middle .middle-content .bottom .left-side {
+  padding-left: 20px ;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 45%;
+  width: 50%;
 }
 
 .middle-container .main .middle .middle-content .bottom .left-side span {
@@ -388,4 +422,224 @@ button {
 
 }
 
- 
+/* third card */
+
+.middle-container .main .middle .second-content {
+  padding-top: 20px;
+  border-top: 1px solid #f1f1f1;
+}
+
+
+.middle-container .main .middle .second-content .middle-context ul {
+  list-style: none;
+  display: flex;
+}
+
+.middle-container .main .middle .second-content .middle-context ul li {
+  display: flex;
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+
+.li-middle {
+  padding: 0px 10px;
+  border-right:1px solid #cccccc ;
+  border-left:1px solid #cccccc ;
+
+}
+
+.middle-container .main .middle .second-content .middle-context ul li:hover {
+  color: #313131;
+  font-weight: bold;
+}
+
+.middle-container .main .middle .second-content .bottom .reply-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0px 20px;
+}
+.middle-container .main .middle .second-content .bottom .reply-container .box {
+}
+
+.middle-container .main .middle .second-content .bottom .reply-container  input {
+  padding: 10px ;
+  border: 1px solid #e2e2e2;
+  outline: none;
+  width: 100%;
+  margin: 0px 20px; 
+}
+
+.scroll {
+text-align: center;
+margin-bottom: 40px;}
+
+
+.scroll span {
+  font-size: 36px;
+  cursor: pointer;
+  
+}
+
+/* right */
+
+.right {
+  width: 26%;
+}
+
+.right .card {
+  margin-bottom: 30px;
+}
+
+.card-1 {
+  text-align: center;
+
+}
+
+.right .card .bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-1 {
+  background-image: url(./images/space.jpg);
+  padding: 20px;
+
+}
+
+.bg-2 {
+  background-color: #ea724f;
+  padding: 20px;
+
+}
+
+.bg-3 {
+  background-color: white;
+}
+
+.right .card .bg h2 {
+  font-size: 22px;
+}
+
+.right .card .bg p {
+  margin-top: 20px;
+}
+
+.right .card .bg .button-container {
+  margin: 0px auto;
+  margin-top: 40px;
+  width: 50%;
+}
+
+/* second card */
+
+.right .card .card-middle ul {
+  display: flex;
+  align-items: center;
+}
+
+.right .card .card-top ul li {
+  margin: 10px 0px;
+}
+
+
+
+ .center {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right .card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+.right .card .card-top .right-side span {
+  font-size: 100px;
+}
+
+.right .card .card-middle li {
+  margin-right: 10px;
+}
+
+.right .card .bottom {
+
+}
+
+.bottom-2 {
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.bottom-3 {
+  border-top: 1px solid #cccccc;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px; }
+
+/* third card */
+.right .card-3 h2 {
+padding: 20px 0px;
+padding-left: 20px;
+}
+
+.right .card-3 .bg ul {
+}
+
+.right .card-3 .bg ul li {
+  padding: 10px 20px;
+  border-top: 1px solid #cccccc;
+}
+
+.right .card-3 .bg ul li p {
+  margin: 0;
+}
+.right .card-3 ul .top {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.right .card-3 .bottom {
+  margin-top: ;
+}
+
+/* footer  */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+
+footer .left-side {
+  display: flex;
+  align-items: center;
+}
+
+footer .left-side .logo {
+  margin-right: 10px;
+}
+
+
+footer .left-side span {
+  color: #ea724f;
+}
+footer .right-side {
+  width: 30%;
+}
+footer .right-side ul {
+  display: flex;
+  justify-content: space-around;
+}
